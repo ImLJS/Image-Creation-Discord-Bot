@@ -40,7 +40,7 @@ async def on_message(message):
 
         await message.channel.send(response["data"][0]["url"])
 
-client.run('TOKEN')
+client.run('DISCORD TOKEN')
 
 
 
